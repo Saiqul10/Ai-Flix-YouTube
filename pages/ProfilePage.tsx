@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProfileIcon } from '../components/icons/ProfileIcon';
+import { ProfileIcon } from '../components/icons/ProfileIcon.tsx';
 
 interface ProfilePageProps {
   theme: 'light' | 'dark';

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Music } from '../types';
-import { PlayIcon } from './icons/PlayIcon';
+import { Music } from '../types.ts';
+import { PlayIcon } from './icons/PlayIcon.tsx';
 
 interface MusicCardProps {
   music: Music;

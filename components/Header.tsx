@@ -1,7 +1,7 @@
 import React from 'react';
-import { SearchIcon } from './icons/SearchIcon';
-import { ProfileIcon } from './icons/ProfileIcon';
-import { Page } from '../types';
+import { SearchIcon } from './icons/SearchIcon.tsx';
+import { ProfileIcon } from './icons/ProfileIcon.tsx';
+import { Page } from '../types.ts';
 
 interface HeaderProps {
     setActivePage: (page: Page) => void;

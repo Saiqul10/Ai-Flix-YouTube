@@ -1,9 +1,9 @@
 import React from 'react';
-import { Music } from '../types';
-import { SkipBackIcon } from './icons/SkipBackIcon';
-import { PlayIcon } from './icons/PlayIcon';
-import { PauseIcon } from './icons/PauseIcon';
-import { SkipForwardIcon } from './icons/SkipForwardIcon';
+import { Music } from '../types.ts';
+import { SkipBackIcon } from './icons/SkipBackIcon.tsx';
+import { PlayIcon } from './icons/PlayIcon.tsx';
+import { PauseIcon } from './icons/PauseIcon.tsx';
+import { SkipForwardIcon } from './icons/SkipForwardIcon.tsx';
 
 interface MusicPlayerProps {
   music: Music;

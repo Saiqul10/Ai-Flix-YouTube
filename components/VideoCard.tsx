@@ -1,6 +1,6 @@
 import React from 'react';
-import { Video } from '../types';
-import { PlayIcon } from './icons/PlayIcon';
+import { Video } from '../types.ts';
+import { PlayIcon } from './icons/PlayIcon.tsx';
 
 interface VideoCardProps {
   video: Video;

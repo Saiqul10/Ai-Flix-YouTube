@@ -1,10 +1,10 @@
 import React from 'react';
-import { ContentItem, Movie, Music, Video } from '../types';
-import { ChevronLeftIcon } from '../components/icons/ChevronLeftIcon';
-import { HeartIcon } from '../components/icons/HeartIcon';
-import { ShareIcon } from '../components/icons/ShareIcon';
-import { DownloadIcon } from '../components/icons/DownloadIcon';
-import { PlayIcon } from '../components/icons/PlayIcon';
+import { ContentItem, Movie, Music, Video } from '../types.ts';
+import { ChevronLeftIcon } from '../components/icons/ChevronLeftIcon.tsx';
+import { HeartIcon } from '../components/icons/HeartIcon.tsx';
+import { ShareIcon } from '../components/icons/ShareIcon.tsx';
+import { DownloadIcon } from '../components/icons/DownloadIcon.tsx';
+import { PlayIcon } from '../components/icons/PlayIcon.tsx';
 
 interface DetailPageProps {
   item: ContentItem;

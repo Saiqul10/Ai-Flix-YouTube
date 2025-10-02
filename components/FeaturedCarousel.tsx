@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Movie } from '../types';
-import { ChevronLeftIcon } from './icons/ChevronLeftIcon';
-import { ChevronRightIcon } from './icons/ChevronRightIcon';
-import { PlayIcon } from './icons/PlayIcon';
+import { Movie } from '../types.ts';
+import { ChevronLeftIcon } from './icons/ChevronLeftIcon.tsx';
+import { ChevronRightIcon } from './icons/ChevronRightIcon.tsx';
+import { PlayIcon } from './icons/PlayIcon.tsx';
 
 interface FeaturedCarouselProps {
   items: Movie[];

@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Header } from './components/Header';
-import { BottomNav } from './components/BottomNav';
-import { HomePage } from './pages/HomePage';
-import { GenericListPage } from './pages/GenericListPage';
-import { DetailPage } from './pages/DetailPage';
-import { ProfilePage } from './pages/ProfilePage';
-import { Page, ContentItem } from './types';
-import { MOVIES, MUSIC, VIDEOS } from './constants';
-import { PlayerPage } from './pages/PlayerPage';
+import { Header } from './components/Header.tsx';
+import { BottomNav } from './components/BottomNav.tsx';
+import { HomePage } from './pages/HomePage.tsx';
+import { GenericListPage } from './pages/GenericListPage.tsx';
+import { DetailPage } from './pages/DetailPage.tsx';
+import { ProfilePage } from './pages/ProfilePage.tsx';
+import { Page, ContentItem } from './types.ts';
+import { MOVIES, MUSIC, VIDEOS } from './constants.ts';
+import { PlayerPage } from './pages/PlayerPage.tsx';
 
 const App: React.FC = () => {
   const [activePage, setActivePage] = useState<Page>(Page.Home);

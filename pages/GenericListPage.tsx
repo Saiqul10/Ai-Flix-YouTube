@@ -1,8 +1,8 @@
 import React from 'react';
-import { ContentItem, Page, ContentType } from '../types';
-import { MovieCard } from '../components/MovieCard';
-import { MusicCard } from '../components/MusicCard';
-import { VideoCard } from '../components/VideoCard';
+import { ContentItem, Page, ContentType } from '../types.ts';
+import { MovieCard } from '../components/MovieCard.tsx';
+import { MusicCard } from '../components/MusicCard.tsx';
+import { VideoCard } from '../components/VideoCard.tsx';
 
 interface GenericListPageProps {
   page: Page;

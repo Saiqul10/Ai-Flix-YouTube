@@ -1,4 +1,4 @@
-import { Movie, Music, Video } from './types';
+import { Movie, Music, Video } from './types.ts';
 
 export const MOVIES: Movie[] = [
   {

@@ -1,10 +1,10 @@
 import React from 'react';
-import { HomeIcon } from './icons/HomeIcon';
-import { MovieIcon } from './icons/MovieIcon';
-import { MusicIcon } from './icons/MusicIcon';
-import { YouTubeIcon } from './icons/YouTubeIcon';
-import { Page } from '../types';
-import { ProfileIcon } from './icons/ProfileIcon';
+import { HomeIcon } from './icons/HomeIcon.tsx';
+import { MovieIcon } from './icons/MovieIcon.tsx';
+import { MusicIcon } from './icons/MusicIcon.tsx';
+import { YouTubeIcon } from './icons/YouTubeIcon.tsx';
+import { Page } from '../types.ts';
+import { ProfileIcon } from './icons/ProfileIcon.tsx';
 
 interface BottomNavProps {
   activePage: Page;

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Movie } from '../types';
-import { PlayIcon } from './icons/PlayIcon';
+import { Movie } from '../types.ts';
+import { PlayIcon } from './icons/PlayIcon.tsx';
 
 interface MovieCardProps {
   movie: Movie;

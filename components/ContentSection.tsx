@@ -1,9 +1,9 @@
 import React from 'react';
-import { ContentItem, ContentType } from '../types';
-import { MovieCard } from './MovieCard';
-import { MusicCard } from './MusicCard';
-import { VideoCard } from './VideoCard';
-import { ChevronRightIcon } from './icons/ChevronRightIcon';
+import { ContentItem, ContentType } from '../types.ts';
+import { MovieCard } from './MovieCard.tsx';
+import { MusicCard } from './MusicCard.tsx';
+import { VideoCard } from './VideoCard.tsx';
+import { ChevronRightIcon } from './icons/ChevronRightIcon.tsx';
 
 interface ContentSectionProps {
   title: string;

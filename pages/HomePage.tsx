@@ -1,8 +1,8 @@
 import React from 'react';
-import { FeaturedCarousel } from '../components/FeaturedCarousel';
-import { ContentSection } from '../components/ContentSection';
-import { MOVIES, MUSIC, VIDEOS } from '../constants';
-import { ContentItem, ContentType, Page } from '../types';
+import { FeaturedCarousel } from '../components/FeaturedCarousel.tsx';
+import { ContentSection } from '../components/ContentSection.tsx';
+import { MOVIES, MUSIC, VIDEOS } from '../constants.ts';
+import { ContentItem, ContentType, Page } from '../types.ts';
 
 interface HomePageProps {
   setActivePage: (page: Page) => void;

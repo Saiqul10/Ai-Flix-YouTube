@@ -1,13 +1,13 @@
 import React from 'react';
-import { ContentItem, ContentType, Movie } from '../types';
-import { ChevronLeftIcon } from '../components/icons/ChevronLeftIcon';
-import { PlayIcon } from '../components/icons/PlayIcon';
-import { HeartIcon } from '../components/icons/HeartIcon';
-import { MessageCircleIcon } from '../components/icons/MessageCircleIcon';
-import { ShareIcon } from '../components/icons/ShareIcon';
-import { DownloadIcon } from '../components/icons/DownloadIcon';
-import { ContentSection } from '../components/ContentSection';
-import { VIDEOS } from '../constants';
+import { ContentItem, ContentType, Movie } from '../types.ts';
+import { ChevronLeftIcon } from '../components/icons/ChevronLeftIcon.tsx';
+import { PlayIcon } from '../components/icons/PlayIcon.tsx';
+import { HeartIcon } from '../components/icons/HeartIcon.tsx';
+import { MessageCircleIcon } from '../components/icons/MessageCircleIcon.tsx';
+import { ShareIcon } from '../components/icons/ShareIcon.tsx';
+import { DownloadIcon } from '../components/icons/DownloadIcon.tsx';
+import { ContentSection } from '../components/ContentSection.tsx';
+import { VIDEOS } from '../constants.ts';
 
 interface PlayerPageProps {
   item: ContentItem;
