@@ -1,0 +1,5 @@
+{
+  "name": "AI Flix",
+  "description": "A modern streaming platform interface for movies, music, and videos, built with React and Tailwind CSS, featuring a dynamic UI with carousels and horizontally scrolling content sections.",
+  "requestFramePermissions": []
+}
